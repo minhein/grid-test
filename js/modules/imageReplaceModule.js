@@ -6,7 +6,6 @@ $(document).ready(function($){
   var $newNeutralsPopupImg = $('#new-neutrals .color-image img');
   var $newNeutralsPopupCaption = $('#new-neutrals .color-image p');
 
-  //Hover and show in big image
   $('#new-neutrals .color-info li img').hover(function(){
     var $imgSrc = $(this).attr('src');
     var $imgCaption = $(this).attr('alt');
