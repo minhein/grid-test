@@ -534,7 +534,7 @@ nav ul {
 .container {
   max-width: 905px;
   margin: 0px auto;
-  padding: 40px; }
+  padding: 20px 40px; }
   .container.text {
     text-align: center;
     width: 100%;
