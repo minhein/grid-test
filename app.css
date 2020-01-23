@@ -522,7 +522,7 @@ nav ul {
         min-width: 165px; } }
     nav ul a:hover {
       background: #e8e8e8; }
-    nav ul a.active {
+    nav ul a.is-active {
       background: #e8e8e8;
       border-bottom: 1px solid transparent; }
     nav ul a + li a {
@@ -535,6 +535,9 @@ nav ul {
   max-width: 905px;
   margin: 0px auto;
   padding: 40px; }
+
+.card:not(.is-active) {
+  display: none; }
 
 .card {
   display: -webkit-box;
